@@ -8,7 +8,7 @@ let botaoReiniciar = document.getElementById("reiniciar");
 function manipularTextosHTML(texto, tag) {
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
-  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1});
 }
 
 manipularTextosHTML("Jogo Secreto", "h1");
