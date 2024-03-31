@@ -1,6 +1,6 @@
 let numerosSorteados = [];
 let numeroMaximo = 10;
-let numeroSecreto = 5;
+let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 let botaoReiniciar = document.getElementById("reiniciar");
